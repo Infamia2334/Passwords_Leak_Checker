@@ -35,7 +35,7 @@ def main(args) :
     for password in args:
         count = pwned_api_check(password)
         if(count):
-            print(f"Alas!Looks like your password:{password.count()} was breached {count} times....Please Consider changing it(Also you are retarded lol)")
+            print(f"Alas!Looks like your password:{password} was breached {count} times....Please Consider changing it(Also you are retarded lol)")
         else:
             print("Password was never Breached....at least you don't have shit for brains")
 
